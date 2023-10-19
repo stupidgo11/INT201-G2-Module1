@@ -4,7 +4,7 @@ class Todo{
         this.description = description
     }
     getTodo(){
-        return { id:this.id, description:this.description}
+        return { id: this.id, description: this.description }
     }
     setDescription(newDescription){
         this.description = newDescription

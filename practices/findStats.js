@@ -26,8 +26,8 @@ function arrayStatsM(arr) {
     sum += arr[i]
   }
   return {
-    min: (min = Math.min(...arr)),
-    max: (max = Math.max(...arr)),
+    min: Math.min(...arr),
+    max: Math.max(...arr),
     sum: sum,
     avg: sum / arr.length
   }
